@@ -1,0 +1,12 @@
+div.student-form{
+    margin: auto;
+    color: blueviolet;
+}
+div p{
+color: brown;
+}
+
+[width="200"]{
+    border: 2px solid black;
+    width: 100px;
+}

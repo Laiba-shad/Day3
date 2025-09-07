@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Hello, World!</h1>
     <p>This is a simple HTML document.</p>
-</body>
+    <form>
+      <label for="username">Username:</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Enter your username"
+      />
+      <br /><br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter your password"
+      />
+      <br /><br />
+    </form>
+    <br />
+    
+    <div class="student-form">
+        <label for="student">Are you graduated?</label>
+
+    <input type="checkbox" name="graduate" id="student" value="Graduated" />
+    <br />
+    <h3>Select Your Gender</h3>
+    <input type="radio" name="gender" id="male" />
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female" />
+    <label for="female">Female</label>
+    <input type="submit" value="Submit" />
+    </div>
+    <div>
+      <span>
+        <img src="https://placehold.co/400" alt="img" width="200"/>
+        <img src="https://placehold.co/600x400" alt="another image" width="200"/>
+      </span>
+    </div>
+    <section>
+        <footer>
+            <p>Copyright &copy; 2024</p>
+        </footer>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quasi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quasi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quasi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quasi.</p>
+        </div>
+    </section>
+  </body>
 </html>
